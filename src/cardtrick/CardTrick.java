@@ -30,10 +30,10 @@ public class CardTrick {
         }
         
         
-        //insert code to ask the user for Card value and suit, create their card
+        //insert code for luckyCard object
         Card luckyCard = new Card();
-        luckyCard setValue(1);
-        luckyCard setSuit("Spades");
+        luckyCard.setValue(1);
+        luckyCard.setSuit("Spades");
         
         // and search magicHand here
         boolean correct = false;
@@ -50,6 +50,5 @@ public class CardTrick {
             System.out.println("Sorry! You did NOT find the Lucky Card. You Lose...");
         }
     }
-    
     
 }
